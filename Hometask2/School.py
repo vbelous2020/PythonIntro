@@ -17,4 +17,25 @@ class_c = int(input('Введите количество учеников в к�
 print('Класс А:', class_a)
 print('Класс В:', class_b)
 print('Класс С:', class_c)
+print()
+if class_a % 2 != 0:
+    table_a = class_a // 2 + 1
+else:
+    table_a = class_a // 2
+print('Количество парт для А класса:', table_a)
 
+if class_b % 2 != 0:
+    table_b = class_b // 2 + 1
+else:
+    table_b = class_b // 2
+print('Количество парт для B класса:', table_b)
+
+if class_c % 2 != 0:
+    table_c = class_c // 2 + 1
+else:
+    table_c = class_c // 2
+print('Количество парт для C класса:', table_c)
+print()
+
+all_tables = table_a + table_b + table_c
+print('Всего надо закупить парт:', all_tables)
