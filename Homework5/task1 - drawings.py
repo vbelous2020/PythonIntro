@@ -11,6 +11,8 @@ for x in range(width):
     print()
 print()
 
+
+
 # Ромб
 for x in range(width):
     for y in range(height):
