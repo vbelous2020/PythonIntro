@@ -10,11 +10,6 @@
 
 
 def converter_func(num, system):
-    """
-    :param num:
-    :param system:
-    :return:
-    """
     s = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     tmp = []
     while num > 0:
@@ -22,7 +17,6 @@ def converter_func(num, system):
         tmp.insert(0, s[r])
         num //= system
 
-    # tmp.reverse()
     res = ''.join(tmp)
 
     return res
