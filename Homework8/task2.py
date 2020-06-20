@@ -16,9 +16,7 @@ def converter_func(num, system):
         r = num % system
         tmp.insert(0, s[r])
         num //= system
-
     res = ''.join(tmp)
-
     return res
 
 
